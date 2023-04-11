@@ -2,11 +2,12 @@
 
 # **Design Goals**
 >   #### *The risk I took was calculated, but man, am I bad at math...*
->
+>   
 
 **RULE 1. The server should stay up indefinitely.** In general, the server should only go down if absolutely necessary, e.g. when the Minecraft version is updated, a mod/plugin needs a security update, et. cetera. Additionally, I'll never reset the world (unless everyone really wants to). *Even if I lose interest myself and don't play for 3 months, I will try to keep the server up and running on the latest version of Minecraft 24/7/365 with as little issues as possible.*
-<br>
-<br>
+
+
+
 **RULE 2. The server should not be too reliant on any external software.** This means...
 
  - ***The server will always be FULLY vanilla compatible,*** i.e. It will remain intact even if it's abruptly switched to the vanilla server jar *with zero corruption/missing functionality*. This means I'll be avoiding Bukkit/Spigot/Paper/*[your favorite fork here]*. Sorry. If the server uses any external plugins, we could run into problems very quickly when a new Minecraft update releases, or random plugin developers decide to vanish without warning.
