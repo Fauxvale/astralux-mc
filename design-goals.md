@@ -13,7 +13,7 @@
  - **No changes to the vanilla game's mechanics.** Again, the goal is for *anyone* to be able to hop in and play whenever they want, forever. If we want that to happen, the server must not require any more effort to play than the unmodified vanilla game. While client-side modpacks, minor hotswappable QoL improvements, etc. will be provided, they will never be *required.*
 
  **TL;DR** *if it changes anything about vanilla minecraft gameplay, we should avoid it.*<br>
-**This includes keeping bugs/exploits that have a legitimate use case *(and can't be used for evil  👺)* intact!** Most exploits commonly used/abused by the technical minecraft community will stay, for example... *Within reasonable limits.* There will always be some exceptions to this rule, but I'll try to get everyone to agree on changes before taking action should the need arise.
+**This includes keeping bugs/exploits that have a legitimate use case *(and can't be used for evil  👺)* intact!** For example, most exploits commonly used/abused by the technical minecraft community will stay, *within reasonable limits.* There will always be some exceptions to this rule, but I'll try to get everyone to agree on changes before taking action should the need arise.
 <br>
 <br>
 **3. Keep the server lightweight!** Any modifications to the vanilla jar should be limited to performance enhancements or minor QoL tweaks (which *don't violate the guidelines of Rule #2*). As of 4-11-23, **the server will run [Fabric](https://fabricmc.net/).** Fabric was chosen for its solid userbasse, fantastic performance and quick updates. At some point I may switch over to [Quilt](https://quiltmc.org), but it's not stable enough for live production yet (according to QuiltMC devs themselves).
