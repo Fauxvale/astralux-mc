@@ -7,7 +7,7 @@
 **1. The server should stay running indefinitely.** In general, the server should only go down if absolutely necessary, e.g. when the game version is updated, a mod/plugin needs a security update, et. cetera. Additionally, I'll never reset the world (unless everyone really wants to). *Even if I myself lose interest and don't play for 2 months, I will try to keep the server up and running on the latest version of Minecraft 24/7/365 with as few issues as possible.*
 <br>
 <br>
-**2. The Server should not be reliant on any external software.** If the server is to remain running indefinitely, we should avoid introducing extra "dependencies". This means:
+**2. The Server should not be too reliant on any external software.** If the server is to remain running indefinitely, we should avoid introducing extra "dependencies". This means:
 
  - **The server will always be FULLY vanilla compatible.** In essence, the server will remain 100% intact even if it's switched to the vanilla server jar *with zero corruption/missing functionality*. This means I'll be avoiding Bukkit/Spigot/Paper/*[your favorite fork here]*. Sorry. If the server uses any external plugins, we could run into problems very quickly when a new Minecraft update releases, or random plugin developers decide to vanish without warning.
  - **No changes to the vanilla game's mechanics.** Again, the goal is for *anyone* to be able to hop in and play whenever they want, forever. If we want that to happen, the server **must not require any more effort to play than the unmodified vanilla game.** While client-side modpacks & QoL improvements will be provided, they will never be *required.*
