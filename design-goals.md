@@ -1,7 +1,8 @@
 <p align=center>[pretty image here]</p>
 
-# **Design Goals** 
-> Naturally, the server itself is the most important part! I plan on making the server as stable as possible, and ensuring minimal maintenance is required to keep the server running. 
+# **Design Goals**
+>   #### *The risk I took was calculated, but man, am I bad at math...*
+>
 
 **1. The server should stay running indefinitely.** In general, the server should only go down if absolutely necessary, e.g. when the game version is updated, a mod/plugin needs a security update, et. cetera. Additionally, I'll never reset the world (unless everyone really wants to). Even if I lose interest and don't play for 6 months, I will try to keep the server up and running on the latest version of Minecraft 24/7 with as little fuss as possible. 
 <br>
@@ -9,14 +10,13 @@
 **2. The Server should not be reliant on any specific "external" software.** If the server is to remain running indefinitely, it should avoid introducing major "dependencies". This means:
 
  - **The server will be FULLY vanilla compatible.** In essence, I should be able to switch the server to a vanilla jar at any time without anything breaking. Yes, this means I'll be avoiding Bukkit/Spigot/Paper/*[your favorite fork here]*. Sorry. By using software maintained by an external dev team, the server may run into problems when a game update releases, or a critical vulnerability of some sort is discovered. Things take time to update; projects get abandoned.
- - **No changes to the vanilla game's mechanics.** Again, the goal is for *anyone* to be able to hop in and play whenever they want, forever. If we want that to happen, the server must not require any more effort to play than the unmodified vanilla game. While client-side modpacks, minor hotswappable QoL improvements, etc. will be provided, they will never be *required.* While the first rule implicitly prohibits any major mods, that doesn't mean we can't use some simple stuff. For example, 
+ - **No changes to the vanilla game's mechanics.** Again, the goal is for *anyone* to be able to hop in and play whenever they want, forever. If we want that to happen, the server must not require any more effort to play than the unmodified vanilla game. While client-side modpacks, minor hotswappable QoL improvements, etc. will be provided, they will never be *required.*
 
- TL;DR if it changes anything about vanilla minecraft gameplay, we should avoid it.  
-
-Someone who has only played Vanilla minecraft for the last decade should be able to join the server and have everything function just as they expect -- So no devicive "fixes" either (i.e. bugs/exploits that have a legitimate use case will remain untouched; No inexplicably breaking farms). *There may be some exceptions to this, but I'll try to get everyone to agree on changes before taking action should the need arise.*
+ **TL;DR** *if it changes anything about vanilla minecraft gameplay, we should avoid it.*<br>
+No devicive "fixes" either. Bugs/exploits that have a legitimate use case (and can't be used for evil  👺) will be left intact. Most stuff commonly used/abused by the technical minecraft community should stay, for example. *There may be some exceptions to this, but I'll try to get everyone to agree on changes before taking action should the need arise.*
 <br>
 <br>
-**3. Keep the server lightweight!** Any modifications to the vanilla jar should be limited to performance improvements (which *don't violate rule 2*). As of 4-11-23, **the server will run [Fabric](https://fabricmc.net/).** Fabric was chosen for its solid userbasse, fantastic performance and quick updates. At some point I may switch over to [Quilt](https://quiltmc.org), but it's not stable enough for live production yet (according to QuiltMC devs themselves).
+**3. Keep the server lightweight!** Any modifications to the vanilla jar should be limited to performance enhancements or minor QoL tweaks (which *don't violate the guidelines of Rule #2*). As of 4-11-23, **the server will run [Fabric](https://fabricmc.net/).** Fabric was chosen for its solid userbasse, fantastic performance and quick updates. At some point I may switch over to [Quilt](https://quiltmc.org), but it's not stable enough for live production yet (according to QuiltMC devs themselves).
 <br>
 <br>
 **4. Long-term projects require long-term solutions.** I don't want this server to suffer from outages, exploits, or my own stupidity. The server will keep backups (and backups of those backups) all on it's own. I've rented out an AWS "S3" Storage Server to make sure they stay safe. As of writing, I'm still hosting the panel & server itself on a remote VM via Oracle Cloud's "Free Tier", but I've prepared it in a way that I'll be able to migrate to a more reliable service should the need arise. Speaking of which; While I tend to prefer open-source applications for my personal projects, I've elected to move away from [Pterodactyl Panel](https://pterodactyl.io/) in favor of [AMP](https://cubecoders.com/AMP) by [CubeCoders](https://cubecoders.com/) *(also known as "Application Management Panel", the most bland and forgettable name ever).* This was a tough decision for me, as AMP is a *closed-source, paid software! \*gasp\**
