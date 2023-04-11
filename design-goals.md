@@ -3,7 +3,7 @@
 # **Design Goals** 
 > Naturally, the server itself is the most important part! I plan on making the server as stable as possible, and ensuring minimal maintenance is required to keep the server running. 
 
-**1. The server should stay running indefinitely.** In general, the server should only go down if absolutely necessary, e.g. when the game version is updated, a mod/plugin needs a security update, et. cetera. I plan to keep the server running indefinitely, never resetting the world (unless we really want to). Even if I lose interest and don't play for 6 months, I will try to keep the server up and running on the latest version of Minecraft 24/7 with as little fus as possible. 
+**1. The server should stay running indefinitely.** In general, the server should only go down if absolutely necessary, e.g. when the game version is updated, a mod/plugin needs a security update, et. cetera. I plan to keep the server running indefinitely, never resetting the world (unless we really want to). Even if I lose interest and don't play for 6 months, I will try to keep the server up and running on the latest version of Minecraft 24/7 with as little fuss as possible. 
 <br>
 <br>
 **2. The Server should not be reliant on any specific "external" software.** If the server is to remain running indefinitely, it should avoid introducing major "dependencies". This means:
