@@ -4,7 +4,7 @@
 >   #### *The risk I took was calculated, but man, am I bad at math...*
 >
 
-**RULE 1. The server should stay running indefinitely.** In general, the server should only go down if absolutely necessary, e.g. when the game version is updated, a mod/plugin needs a security update, et. cetera. Additionally, I'll never reset the world (unless everyone really wants to). *Even if I lose interest myself and don't play for 3 months, I will try to keep the server up and running on the latest version of Minecraft 24/7/365 with as little issues as possible.*
+**RULE 1. The server should stay up indefinitely.** In general, the server should only go down if absolutely necessary, e.g. when the game version is updated, a mod/plugin needs a security update, et. cetera. Additionally, I'll never reset the world (unless everyone really wants to). *Even if I lose interest myself and don't play for 3 months, I will try to keep the server up and running on the latest version of Minecraft 24/7/365 with as little issues as possible.*
 <br>
 <br>
 **RULE 2. The Server should not be too reliant on any external software.** In other words, if the server is to remain running indefinitely, we should avoid adding unnecessary "dependencies". This means:
