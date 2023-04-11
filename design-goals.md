@@ -17,4 +17,4 @@
  In short, if it changes anything about vanilla minecraft gameplay, we should avoid it. Someone who has only played Vanilla minecraft for the last decade-or-so should be able to join the server and have everything function just as they expect -- So no unnesscessary bug "fixes" either. *There may be some exceptions to this, but I'll try to get everyone to agree to fix/change/remove anything like that if/when they arise.*
 <br>
 <br>
-**3. Keep the server lightweight!** Any modifications to the vanilla jar should be limited to performance improvements (which **don't violate rule 2**).
+**3. Keep the server lightweight!** Any modifications to the vanilla jar should be limited to performance improvements (which *don't violate rule 2*). In order to cut down on excess resource comsumption, as of 4-11-23, **the server will run [Fabric](https://fabricmc.net/)].** Fabrics was chosen due to it's quick updates, good performance, fantastic utility mods and large community. At some point, I may switch over to **[Quilt](https://quiltmc.org)**, but it's not *quite* stable enough at this time. Soon, though...?
