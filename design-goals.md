@@ -10,7 +10,7 @@
 **2. The Server should not be too reliant on any external software.** In other words, if the server is to remain running indefinitely, we should avoid adding unnecessary "dependencies". This means:
 
  - **The server will always be FULLY vanilla compatible.** In essence, the server will remain intact even if it's abruptly switched to the vanilla server jar *with zero corruption/missing functionality*. This means I'll be avoiding Bukkit/Spigot/Paper/*[your favorite fork here]*. Sorry. If the server uses any external plugins, we could run into problems very quickly when a new Minecraft update releases, or random plugin developers decide to vanish without warning.
- - **No changes to the vanilla game's mechanics.** If we want the server to stay alive for a `long` time, then it **must not require any more effort to play than the unmodified vanilla game.** While client-side modpacks & QoL improvements will be provided, they will never be *required.*
+ - **No changes to the vanilla game's mechanics.** If we want the server to stay alive for a `long` time, then it **must not require any more effort to play than the vanilla (unmodified) game.** While client-side modpacks & QoL improvements will be provided, they will never be *required.*
 
  **TL;DR** *I'll avoid major gameplay changes & "vanilla" clients will always be able to connect.*<br>
 **This includes keeping bugs/exploits that have a legitimate use case *(and can't be used for evil  👺)* intact!** For example, most exploits commonly used/abused by the technical minecraft community will stay -- *within reasonable limits.* There will always be *some* exceptions to this rule, but I'll try to get everyone to agree on changes before taking action should the need arise.
