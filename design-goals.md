@@ -1,8 +1,6 @@
-# **Design Goals** <img style="float: right;" src="">
-
 <p align=center>[pretty image here]</p>
 
-## **I. The Server** 
+# **Design Goals** 
 > Naturally, the server itself is the most important part! I plan on making the server as stable as possible, and ensuring minimal maintenance is required to keep the server running. 
 
 **1. The server should stay running indefinitely.** In general, the server should only go down if absolutely necessary, e.g. when the game version is updated, a mod/plugin needs a security update, et. cetera. I plan to keep the server running indefinitely, never resetting the world (unless we really want to). Even if I lose interest and don't play for 6 months, I will try to keep the server up and running on the latest version of Minecraft 24/7 with as little fus as possible. 
@@ -22,7 +20,6 @@
 **4. Long-term projects require long-term solutions.** I don't want the server to fall victim to my own stupidity. The server will keep backups (and backups of those backups) all on it's own. I've rented out an AWS "S3" Storage Server to make sure they stay safe. As of writing, I'm still hosting the panel/server itself on an Oracle Cloud "Free Tier" Server, but I've set things so I'll be able to migrate to a ""real"" VPS if anything goes wrong. Speaking of which; While I tend to prefer open-source applications for my personal projects, I've elected to move away from [Pterodactyl Panel](https://pterodactyl.io/) in favor of [AMP](https://cubecoders.com/AMP) by [CubeCoders](https://cubecoders.com/) *(also known as "Application Management Panel", the most bland and forgettable name ever).* This was a tough decision for me, as AMP is a *closed-source, paid software! \*gasp\**
 
 I feel the cost will be worth it though, as AMP has good customer support and a VERY large userbase. If something goes wrong, it's pretty much guaranteed to be dealt with quickly and easily (many large server networks use AMP, and some pay $200+ subscriptions, so failure is not an option 💀).
-<br>
 <br>
 <br>
 *..and last but not least,* <br>
