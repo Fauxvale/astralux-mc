@@ -31,7 +31,7 @@ I feel the cost will be worth it though, as AMP has good customer support and a 
 <br>
 
 ---
-<h2 align=center>‼️‼️ The server has one immutable rule on CHEATS. ‼️‼️<br></h2>
+<h2 align=center>‼️‼️ The server has one immutable rule on CHEATING. ‼️‼️<br></h2>
 <em><p align=center>Including BUT NOT LIMITED TO: "x-ray" of any kind, hacked clients, illicit dupes, etc...</p></em>
 <h2 align=center>⚠️ <em>THE TEXT YOU ARE READING RIGHT NOW WILL BE YOUR ONLY WARNING</em> ⚠️</h2>
 <p align=center>If you get caught cheating and there's sufficient evidence to prove it, <b>it's an instant ban. You're gone.<br>Zero tolerance policy.</b> Everyone will be informed of your actions, <br>and all relevant evidence will be reviewed & shared <b>publicly</b> with everyone <br>prior to your removal from server communication channels.</p>
