@@ -1,6 +1,10 @@
-<p align=center>[pretty image here]</p>
+----
 
-# **Design Goals**
+<div align="center"><img src="https://github.com/N0PEin2012/astralux-mc/blob/81a204443b76dc06f41d52b0a3ee81e9fa89a66a/astralux-survival-logo.png" alt="Astralux Survival" height=200 /></div>
+
+----
+
+
 >   #### *The risk I took was calculated, but man, am I bad at math...*
 >   
 
