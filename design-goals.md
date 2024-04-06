@@ -15,7 +15,7 @@
 **RULE 2. The server should not be too reliant on any external software.** This means...
 
  - ***The server will always be FULLY vanilla compatible,*** i.e. It will remain intact even if it's abruptly switched to the vanilla server jar *with zero corruption/missing functionality*. This means I'll be avoiding Bukkit/Spigot/Paper/*[your favorite fork here]*. Sorry, but all of those change vanilla behavior in some way! Additionally, if the server uses any external plugins, we could run into problems very quickly when a new Minecraft update releases, or random plugin developers decide to vanish without warning.
- - ***No changes to the vanilla game's mechanics.*** If we want the server to stay alive for a `long` time, then it **must not require any more effort to play than the vanilla (unmodified) game.** While client-side modpacks & QoL improvements may be provided, they will never be *required.*
+ - ***No major changes to the game's mechanics.*** If we want the server to stay alive for a `long` time, then it **must not require any more effort to play than the vanilla (unmodified) game.** While client-side modpacks & QoL improvements may be provided, they will never be *required.*
 
  **TL;DR I'll avoid major gameplay changes & vanilla clients will always be able to connect.**<br>
 **This includes keeping some "good" vanilla bugs/exploits intact!** For example, most exploits commonly used/abused by the technical minecraft community will stay -- *within reasonable limits.* I won't keep anything that could be used for "evil", if you catch my drift.
@@ -26,7 +26,7 @@
 <br>
 **RULE 4. Long-term projects require long-term solutions.** I don't want this server to suffer from outages, exploits, or my own stupidity. The server will keep backups (and backups of those backups) all on it's own. I've rented out an AWS "S3" Storage Server to make sure they stay safe. As of writing, I'm still hosting the panel & server itself on a remote VM via Oracle Cloud's "Free Tier", but I've prepared it in a way that I'll be able to migrate to a more reliable service should the need arise. Speaking of which; While I generally try to stick to open-source software, I've elected to move away from **[Pterodactyl Panel](https://pterodactyl.io/)** in favor of the **[Application Management Panel (AMP)](https://cubecoders.com/AMP)** by [CubeCoders](https://cubecoders.com/) for the purposes of this server. This was a tough decision for me, as AMP is a *closed-source, paid* program! 😱😱
 
-I feel the cost will be worth it though, as AMP has good customer support and a VERY large userbase. If something goes wrong, it's pretty much guaranteed to be dealt with quickly and easily. Many large server networks use AMP, and some pay $200+ subscriptions, so failure is not an option for them 💀
+I feel the cost will be worth it though, as AMP has good customer support and a VERY large userbase. If something goes wrong, it's pretty much guaranteed to be dealt with quickly and easily. Many large server networks use AMP, and some have subscriptions, so failure is not an option for them 💀
 <br>
 <br>
 *..and last but not least,* <br>
