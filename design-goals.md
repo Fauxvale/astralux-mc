@@ -18,7 +18,7 @@
  - ***No major changes to the game's mechanics.*** If we want the server to stay alive for a `long` time, then it **must not require any more effort to play than the vanilla (unmodified) game.** While client-side modpacks & QoL improvements may be provided, they will never be *required.*
 
  **TL;DR I'll avoid major gameplay changes & vanilla clients will always be able to connect.**<br>
-**This includes keeping some "good" vanilla bugs/exploits intact!** For example, most exploits commonly used/abused by the technical minecraft community will stay -- *within reasonable limits.* I won't keep anything that could be used for "evil", if you catch my drift.
+**This includes keeping some "good" vanilla bugs/exploits intact!** For example, most exploits commonly used/abused by the technical minecraft community will stay -- *within reasonable limits.* I won't keep anything that could be used for "evil", if you catch my drift. For example, TNT Duping is allowed, but duping diamonds is not.
 <br>
 <br>
 **RULE 3. Keep the server lightweight!** Any modifications to the vanilla jar should be limited to performance enhancements or minor QoL tweaks *(which don't violate Rule #2*).  <br>As of 1-19-24, I plan to run the server on **[Fabric](https://fabricmc.net/).** Fabric was chosen for its solid userbasse, fantastic performance and quick updates. At some point I may switch over to **[Quilt](https://quiltmc.org)**, but it's not stable enough for live production yet (according to QuiltMC devs themselves).
